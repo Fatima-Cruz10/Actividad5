@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad1.5</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body background="FONDO4.jpg">
+    <h1>"FORMULARIO DE INSCRIPCIÓN DEL CBTis 229"</h1>
+    <hr>
+    <form action="#">
+        <fieldset>
+            <legend>Formato de inscripción</legend>
+            <div>
+                <label for="usuario">Nombre</label>
+                <input id="usuario" type="text" name="usuario"
+                size="20" maxsize="30" placeholder="Introduzca su nombre">
+            </div><br>
+            <div>
+                <label for="apellidos">Apellidos</label>
+                <input ide="apellidos" type="name"
+            size="20" maxsize="30" placeholder="Introduzca sus apellidos">
+            </div><br>
+            <div>
+                <label for="email">CURP</label>
+                <input id="email" type="text" name="email"
+                size="20" maxsize="30" placeholder="Ingrese su CURP">
+            </div><br>
+            <div>
+                <label for="email">Correo electronico</label>
+                <input id="email" type="text" name="email"
+                size="20" maxsize="30" placeholder="Ingrese su email">
+            </div><br>
+            <div>Sexo: <br>
+                <input type="radio" id="masculino" name="sexo" value="masculino">
+                <label for="masculino">Masculino</label><br>
+                <input type="radio" id="femenino" name="sexo" value="femenino">
+                <label for="femenino">Femenino</label><br>
+            </div><br>
+            <div>
+                <label for="semestre">Semestre</label>
+                <select name="especialidad">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="" selected="selected">Seleccione semestre</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="especialidad">Especialidad</label>
+                <select name="especialidad">
+                    <option value="CONST">Construcción</option>
+                    <option value="ELECT">Electronica</option>
+                    <option value="ALIM">Alimentos</option>
+                    <option value="CONTA">Contabilidad</option>
+                    <option value="PROGRAM">Programación</option>
+                    <option value="LOGIS">Logística</option>
+                    <option value="" selected="selected">Seleccione especialidad</option>
+                </select>
+            </div><br>
+            <div>Talleres extraescolares<br>
+                <input type="checkbox" id="danza" name="talleres" value="danza">
+                <label for="danza">Danza</label><br>
+                <input type="checkbox" id="oratoria" name="talleres" value="oratoria">
+                <label for="oratoria">Oratoria</label><br>
+                <input type="checkbox" id="exclamación" name="talleres" value="exclamacion">
+                <label for="exclamacion">Exclamación</label><br>
+                <input type="checkbox" id="poesia" name="talleres" value="poesia">
+                <label for="basquetbol">Poesía</label><br>
+                <input type="checkbox" id="proteccion" name="talleres" value="proteccion">
+                <label for="proteccion">Protección Civil</label><br>
+                <input type="checkbox" id="teatro" name="talleres" value="taetro">
+                <label for="teatro">Teatro</label><br>
+                <input type="checkbox" id="musica" name="talleres" value="musica">
+                <label for="musica">Banda de música</label><br>
+                <input type="checkbox" id="guerra" name="talleres" value="guerra">
+                <label for="guerra">Banda de guerra</label><br>
+                <input type="checkbox" id="rondalla" name="talleres" value="rondalla">
+                <label for="basquetbol">Rondalla</label><br>
+                <input type="checkbox" id="futbol" name="talleres" value="futbol">
+                <label for="futbol">Fútbol</label><br>
+                <input type="checkbox" id="voleibol" name="talleres" value="voleibol">
+                <label for="voleibol">Voleibol</label><br>
+                <input type="checkbox" id="basquetbol" name="talleres" value="basquetbol">
+                <label for="basquetbol">Basquetbol</label><br>
+            </div><br>
+            <div>
+                <input type="submit" name="submit" value="Enviar informacion">
+                <input type="reset" name="reset" value="Limpiar formulario">
+            </div><br>
+        </fieldset>
+    </form>
+</body>
+</html>
